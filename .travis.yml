@@ -4,4 +4,4 @@ node_js:
   - "4.0"
   
 install:
-  - npm install
+  - npm install --dev
