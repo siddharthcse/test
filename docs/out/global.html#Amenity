@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jmap documentation</title>
+    
+    <meta name="description" content="documentation for jmap 2" />
+    
+        <meta name="keywords" content="jmap wayfinding" />
+        <meta name="keyword" content="jmap wayfinding" />
+    
+    
+    
+    <meta property="og:title" content="jmap documentation"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"applicationName":"JMap2","disqus":"","googleAnalytics":"","openGraph":{"title":"jmap documentation","type":"website","image":"","site_name":"","url":""},"meta":{"title":"jmap documentation","description":"documentation for jmap 2","keyword":"jmap wayfinding"},"linenums":true,"default":{}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">JMap2</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="Amenity">
+            <span class="title">
+                <a href="global.html#Amenity">Amenity</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Amenity#componentId"><a href="global.html#Amenity#componentId">componentId</a></li>
+            
+                <li data-name="Amenity#componentTypeId"><a href="global.html#Amenity#componentTypeId">componentTypeId</a></li>
+            
+                <li data-name="Amenity#componentTypeName"><a href="global.html#Amenity#componentTypeName">componentTypeName</a></li>
+            
+                <li data-name="Amenity#description"><a href="global.html#Amenity#description">description</a></li>
+            
+                <li data-name="Amenity#destinations"><a href="global.html#Amenity#destinations">destinations</a></li>
+            
+                <li data-name="Amenity#endDate"><a href="global.html#Amenity#endDate">endDate</a></li>
+            
+                <li data-name="Amenity#filePath"><a href="global.html#Amenity#filePath">filePath</a></li>
+            
+                <li data-name="Amenity#iconImagePath"><a href="global.html#Amenity#iconImagePath">iconImagePath</a></li>
+            
+                <li data-name="Amenity#localizedText"><a href="global.html#Amenity#localizedText">localizedText</a></li>
+            
+                <li data-name="Amenity#position"><a href="global.html#Amenity#position">position</a></li>
+            
+                <li data-name="Amenity#projectId"><a href="global.html#Amenity#projectId">projectId</a></li>
+            
+                <li data-name="Amenity#startDate"><a href="global.html#Amenity#startDate">startDate</a></li>
+            
+                <li data-name="Amenity#waypoints"><a href="global.html#Amenity#waypoints">waypoints</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Category">
+            <span class="title">
+                <a href="Category.html">Category</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Category#categoryTypeName"><a href="Category.html#categoryTypeName">categoryTypeName</a></li>
+            
+                <li data-name="Category#clientCategoryId"><a href="Category.html#clientCategoryId">clientCategoryId</a></li>
+            
+                <li data-name="Category#id"><a href="Category.html#id">id</a></li>
+            
+                <li data-name="Category#keywords"><a href="Category.html#keywords">keywords</a></li>
+            
+                <li data-name="Category#name"><a href="Category.html#name">name</a></li>
+            
+                <li data-name="Category#parent"><a href="Category.html#parent">parent</a></li>
+            
+                <li data-name="Category#projectId"><a href="Category.html#projectId">projectId</a></li>
+            
+                <li data-name="Category#tegoryType"><a href="Category.html#tegoryType">tegoryType</a></li>
+            
+                <li data-name="Category#text"><a href="Category.html#text">text</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Category.create"><a href="Category.html#.create">create</a></li>
+            
+                <li data-name="Category.getAll"><a href="Category.html#.getAll">getAll</a></li>
+            
+                <li data-name="Category.getByCategoryType"><a href="Category.html#.getByCategoryType">getByCategoryType</a></li>
+            
+                <li data-name="Category.getByCategoryTypeName"><a href="Category.html#.getByCategoryTypeName">getByCategoryTypeName</a></li>
+            
+                <li data-name="Category.getByClientCategoryId"><a href="Category.html#.getByClientCategoryId">getByClientCategoryId</a></li>
+            
+                <li data-name="Category.getById"><a href="Category.html#.getById">getById</a></li>
+            
+                <li data-name="Category.getByKeyword"><a href="Category.html#.getByKeyword">getByKeyword</a></li>
+            
+                <li data-name="Category.getByName"><a href="Category.html#.getByName">getByName</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Destination">
+            <span class="title">
+                <a href="Destination.html">Destination</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Destination#category"><a href="Destination.html#category">category</a></li>
+            
+                <li data-name="Destination#categoryId"><a href="Destination.html#categoryId">categoryId</a></li>
+            
+                <li data-name="Destination#clientId"><a href="Destination.html#clientId">clientId</a></li>
+            
+                <li data-name="Destination#description"><a href="Destination.html#description">description</a></li>
+            
+                <li data-name="Destination#descriptionMore"><a href="Destination.html#descriptionMore">descriptionMore</a></li>
+            
+                <li data-name="Destination#helperImage"><a href="Destination.html#helperImage">helperImage</a></li>
+            
+                <li data-name="Destination#id"><a href="Destination.html#id">id</a></li>
+            
+                <li data-name="Destination#keywords"><a href="Destination.html#keywords">keywords</a></li>
+            
+                <li data-name="Destination#name"><a href="Destination.html#name">name</a></li>
+            
+                <li data-name="Destination#openingDate"><a href="Destination.html#openingDate">openingDate</a></li>
+            
+                <li data-name="Destination#operatingStatus"><a href="Destination.html#operatingStatus">operatingStatus</a></li>
+            
+                <li data-name="Destination#projectId"><a href="Destination.html#projectId">projectId</a></li>
+            
+                <li data-name="Destination#qrCodeImage"><a href="Destination.html#qrCodeImage">qrCodeImage</a></li>
+            
+                <li data-name="Destination#sponsoredRating"><a href="Destination.html#sponsoredRating">sponsoredRating</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Destination.create"><a href="Destination.html#.create">create</a></li>
+            
+                <li data-name="Destination.getAll"><a href="Destination.html#.getAll">getAll</a></li>
+            
+                <li data-name="Destination.getByCategoryId"><a href="Destination.html#.getByCategoryId">getByCategoryId</a></li>
+            
+                <li data-name="Destination.getByClientId"><a href="Destination.html#.getByClientId">getByClientId</a></li>
+            
+                <li data-name="Destination.getById"><a href="Destination.html#.getById">getById</a></li>
+            
+                <li data-name="Destination.getByKeyword"><a href="Destination.html#.getByKeyword">getByKeyword</a></li>
+            
+                <li data-name="Destination.getByOperatingStatus"><a href="Destination.html#.getByOperatingStatus">getByOperatingStatus</a></li>
+            
+                <li data-name="Destination.getBySponsoredRating"><a href="Destination.html#.getBySponsoredRating">getBySponsoredRating</a></li>
+            
+                <li data-name="Destination.sortBySponsoredRating"><a href="Destination.html#.sortBySponsoredRating">sortBySponsoredRating</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Device">
+            <span class="title">
+                <a href="Device.html">Device</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Device#description"><a href="Device.html#description">description</a></li>
+            
+                <li data-name="Device#deviceTypeDescription"><a href="Device.html#deviceTypeDescription">deviceTypeDescription</a></li>
+            
+                <li data-name="Device#deviceTypeId"><a href="Device.html#deviceTypeId">deviceTypeId</a></li>
+            
+                <li data-name="Device#heading"><a href="Device.html#heading">heading</a></li>
+            
+                <li data-name="Device#id"><a href="Device.html#id">id</a></li>
+            
+                <li data-name="Device#projectId"><a href="Device.html#projectId">projectId</a></li>
+            
+                <li data-name="Device#status"><a href="Device.html#status">status</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Device.create"><a href="Device.html#.create">create</a></li>
+            
+                <li data-name="Device.getAll"><a href="Device.html#.getAll">getAll</a></li>
+            
+                <li data-name="Device.getByDeviceTypeId"><a href="Device.html#.getByDeviceTypeId">getByDeviceTypeId</a></li>
+            
+                <li data-name="Device.getById"><a href="Device.html#.getById">getById</a></li>
+            
+                <li data-name="Device.getByStatus"><a href="Device.html#.getByStatus">getByStatus</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="Location">
+            <span class="title">
+                <a href="Location.html">Location</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="Location#addresses"><a href="Location.html#addresses">addresses</a></li>
+            
+                <li data-name="Location#clientProjectId"><a href="Location.html#clientProjectId">clientProjectId</a></li>
+            
+                <li data-name="Location#languages"><a href="Location.html#languages">languages</a></li>
+            
+                <li data-name="Location#locationId"><a href="Location.html#locationId">locationId</a></li>
+            
+                <li data-name="Location#locationName"><a href="Location.html#locationName">locationName</a></li>
+            
+                <li data-name="Location#name"><a href="Location.html#name">name</a></li>
+            
+                <li data-name="Location#projectId"><a href="Location.html#projectId">projectId</a></li>
+            
+                <li data-name="Location#status"><a href="Location.html#status">status</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="Location.create"><a href="Location.html#.create">create</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PathType">
+            <span class="title">
+                <a href="PathType.html">PathType</a>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="PathType#accessibility"><a href="PathType.html#accessibility">accessibility</a></li>
+            
+                <li data-name="PathType#description"><a href="PathType.html#description">description</a></li>
+            
+                <li data-name="PathType#direction"><a href="PathType.html#direction">direction</a></li>
+            
+                <li data-name="PathType#maxfloors"><a href="PathType.html#maxfloors">maxfloors</a></li>
+            
+                <li data-name="PathType#metaData"><a href="PathType.html#metaData">metaData</a></li>
+            
+                <li data-name="PathType#pathTypeId"><a href="PathType.html#pathTypeId">pathTypeId</a></li>
+            
+                <li data-name="PathType#projectId"><a href="PathType.html#projectId">projectId</a></li>
+            
+                <li data-name="PathType#speed"><a href="PathType.html#speed">speed</a></li>
+            
+                <li data-name="PathType#typeidPK"><a href="PathType.html#typeidPK">typeidPK</a></li>
+            
+                <li data-name="PathType#typeName"><a href="PathType.html#typeName">typeName</a></li>
+            
+                <li data-name="PathType#weight"><a href="PathType.html#weight">weight</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li data-name="PathType.create"><a href="PathType.html#.create">create</a></li>
+            
+                <li data-name="PathType.getAll"><a href="PathType.html#.getAll">getAll</a></li>
+            
+                <li data-name="PathType.getByDirection"><a href="PathType.html#.getByDirection">getByDirection</a></li>
+            
+                <li data-name="PathType.getByPathTypeId"><a href="PathType.html#.getByPathTypeId">getByPathTypeId</a></li>
+            
+                <li data-name="PathType.getByTypeName"><a href="PathType.html#.getByTypeName">getByTypeName</a></li>
+            
+                <li data-name="PathType.sortByAccessibility"><a href="PathType.html#.sortByAccessibility">sortByAccessibility</a></li>
+            
+                <li data-name="PathType.sortByWeight"><a href="PathType.html#.sortByWeight">sortByWeight</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="global.html#Amenity">Class: Amenity</h1>
+        
+
+
+
+<section>
+    
+<header>
+    <h2>
+    Amenity
+    </h2>
+    
+        <div class="class-description">Class representing an amenity.</div>
+    
+</header>  
+
+<article>
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="Amenity">
+            
+            new Amenity<span class="signature">(model)</span>
+        </h4>
+    
+        
+        <div class="tag-source">
+            Amenity/Amenity.js, line 3
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+    <div class="description">
+        Create an amenity.
+    </div>
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>model</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                The model object passed back from the /full payload</td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Members</h3>
+        
+        <dl>
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="componentId">componentId<span class="type-signature type number">Number</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="componentTypeId">componentTypeId<span class="type-signature type number">Number</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="componentTypeName">componentTypeName<span class="type-signature type string">String</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="description">description<span class="type-signature type string">String</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="destinations">destinations<span class="type-signature type array">Array</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="endDate">endDate<span class="type-signature type number">Number</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="filePath">filePath<span class="type-signature type string">String</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="iconImagePath">iconImagePath<span class="type-signature type string">String</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="localizedText">localizedText<span class="type-signature type string">String</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="position">position<span class="type-signature type string">String</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="projectId">projectId<span class="type-signature type number">Number</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="startDate">startDate<span class="type-signature type number">Number</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="waypoints">waypoints<span class="type-signature type array">Array</span> </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+    
+    
+    
+    
+</article>
+
+</section>  
+
+
+
+
+
+        
+
+        <footer>
+            Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.4.0</a> on Sun Feb 14 2016 12:30:45 GMT-0500 (EST)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

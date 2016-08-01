@@ -1,0 +1,40 @@
+{
+  "name": "jmap2.js",
+  "version": "1.0.0",
+  "description": "Fundamental re-design of the JMap Web SDK. Using modern Javascript concepts and patterns, built without a core rendering engine for client compatibility.",
+  "main": "index.js",
+  "scripts": {
+    "demo": "nodemon demo",
+    "beaut": "./shell/beautify.sh",
+    "test": "./node_modules/.bin/mocha dev/**/*-test.js --timeout 60000",
+    "build": "./node_modules/.bin/browserify -d -t [ babelify --presets [ es2015 ] ] ./dev/jmap/jmap.js -o ./build/jmap.js",
+    "min": "./node_modules/.bin/uglifyjs ./build/jmap.js -o ./build/jmap.min.js --mangle",
+    "docs": "./node_modules/.bin/jsdoc -d ./docs/out -t ./docs/template -c ./docs/conf.json ./dev/**/** README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jibestream/jmap2.js.git"
+  },
+  "author": "Jibestream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jibestream/jmap2.js/issues"
+  },
+  "homepage": "https://github.com/Jibestream/jmap2.js#readme",
+  "dependencies": {
+    "babel-preset-es2015": "6.5.0",
+    "babelify": "7.2.0",
+    "browserify": "13.0.0",
+    "chai": "3.5.0",
+    "express": "4.13.4",
+    "jade": "1.11.0",
+    "jsdoc": "3.4.0",
+    "mocha": "2.4.5",
+    "request": "2.69.0",
+    "uglify-js": "2.6.1",
+    "xmldom": "0.1.22"
+  },
+  "devDependencies": {
+    "babel-core": "6.5.1"
+  }
+}

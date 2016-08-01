@@ -1,0 +1,20 @@
+{
+  "templates": {
+    "applicationName": "JMap2",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+        "title": "jmap documentation",
+        "type": "website",
+        "image": "",
+        "site_name": "",
+        "url": ""
+    },
+    "meta": {
+        "title": "jmap documentation",
+        "description": "documentation for jmap 2",
+        "keyword": "jmap wayfinding"
+    },
+    "linenums": true
+  }
+}
